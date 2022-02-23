@@ -1,3 +1,12 @@
+input.touchD2.onEvent(ButtonEvent.Up, function () {
+    strip.stopAllAnimations()
+    strip.setAll(0x000000)
+    sabre = pixel.rgb(randint(10, 100), randint(10, 100), randint(10, 100))
+    for (let index = 0; index <= 29; index++) {
+        strip.setPixelColor(index, sabre)
+        pause(20)
+    }
+})
 input.touchD1.onEvent(ButtonEvent.Up, function () {
     strip.stopAllAnimations()
     magic(spell)
@@ -21,6 +30,7 @@ function magic (num: number) {
         strip.showAnimation(light.runningLightsAnimation, 3000)
     }
 }
+let sabre = 0
 let spell = 0
 let strip: light.NeoPixelStrip = null
 strip = light.createStrip(pins.D0, 30)
