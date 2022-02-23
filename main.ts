@@ -26,7 +26,7 @@ function magic (num: number) {
     if (num == 2) {
         strip.showAnimation(light.cometAnimation, 4000)
     }
-    if (num == 32) {
+    if (num == 3) {
         strip.showAnimation(light.runningLightsAnimation, 3000)
     }
 }
