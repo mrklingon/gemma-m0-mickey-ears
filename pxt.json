@@ -1,0 +1,28 @@
+{
+    "name": "Gemma M0 Mickey Ears",
+    "description": "",
+    "dependencies": {
+        "adafruit-gemma-m0": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v0.11.8",
+        "tag": "v0.11.8",
+        "commits": "https://github.com/microsoft/pxt-maker/commits/dda7e8cbbaa33adcbb35a6d823b6320871743c63",
+        "target": "0.15.58",
+        "pxt": "5.18.8",
+        "targetId": "maker"
+    },
+    "supportedTargets": [
+        "maker"
+    ],
+    "preferredEditor": "blocksprj"
+}
